@@ -251,3 +251,4 @@ function onClear() {
     document.getElementById('search-error-content').innerHTML = "";
     document.getElementById('search-result').innerHTML = "";
     // console.log("Cleared");
+}
