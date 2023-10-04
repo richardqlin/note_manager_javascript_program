@@ -7,7 +7,7 @@
     <title>NOTE MANAGER</title>
     <link rel="icon" href="/assets/img/title_icon.png">
     <link rel="stylesheet" href="style_one.css">
-    <script src="app_one.js">
+    <script src="app1.js">
 
     </script>
 </head>
@@ -32,8 +32,8 @@
         <!-- Search -->
         <div id="search-error-content" class="error-content"></div>
         <div class="search-content">
-            <label for="fname">Enter note ID</label>
-            <input type="text" id="searchId" name="title" placeholder="Enter your title or ID to be Searched">
+            <label for="fname">Enter Email</label>
+            <input type="text" id="searchId" name="title" placeholder="Enter your Email to be Searched">
             <button type="submit" onclick="onSearch()" id="searchBtn">SEARCH</button>
         </div>
         <div id="search-result">
@@ -48,8 +48,9 @@
         <!-- Add Note -->
         <div class="add-note">
             <label for="title" id="note-header">Add a new note</label>
-            <input type="text" id="addNoteId" name="id" placeholder="Your Note ID">
-            <input type="text" id="addNoteTitle" name="title" placeholder="Your title">
+            
+            <input type="text" id="addNoteTitle" name="title" placeholder="Your Name">
+            <input type="text" id="addNoteId" name="id" placeholder="Your Email ID">
             <input type="text" id="addNoteDescription" name="message" placeholder="Your Note Message">
             <button type="submit" onclick="onAddNote()" id="addNoteBtn">SAVE NOTE</button>
         </div>
